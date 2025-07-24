@@ -1,0 +1,220 @@
+* {
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+/* Estilos de Main*/
+
+.main {
+  width: auto;
+  height: 780px;
+  background-color: #010e1e;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.main__content-title {
+  text-align: center;
+  margin: 0 10rem 0 10rem;
+  color: white;
+  font-size: 60px;
+  padding-bottom: 3rem;
+}
+
+.highlight {
+  color: #00adb5;
+}
+
+.main__content-img {
+  width: 219px;
+  height: 211px;
+}
+
+@media (min-width: 1440px) {
+  .main__content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15rem;
+  }
+
+  .main__content-title{
+    font-size: 100px;
+    text-align: left;
+  }
+
+  .main__content-img{
+    width: 373px;
+    height: 340px;
+    padding-right: 15rem;
+  }
+}
+
+/* Estilos de Presentation*/
+
+.presentation {
+  width: auto;
+  height: 780px;
+  background-color: #192130;
+  color: white;
+}
+
+.presentation__content {
+  padding: 10rem 4rem;
+  text-align: left;
+  padding-top: 100px;
+}
+
+.presentation__content-title {
+  font-size: 42px;
+  padding-bottom: 1rem;
+}
+
+.presentation__content-text {
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+
+.presentation__container-img{
+  padding: 10rem 4rem;
+}
+
+.presentation__content-img {
+  object-fit: contain;
+  width: 295px;
+  height: 241px;
+}
+
+@media (min-width: 1440px){
+  .presentation__content{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .presentation__content-container{
+    padding: 5rem;
+  }
+
+  .presentation__content-img{
+    width: 320px;
+    height: 405px;
+    padding-right: 15rem;
+  }
+}
+
+/* Estilos de Services*/
+
+.cards-container {
+  background-image: url(../../img/bg.png);
+  background-color: #13171c;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.cards-container-title {
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+.cards-container-title-blue {
+  color: #00adb5;
+}
+
+@media(min-width: 1000px){
+  .cards{
+    display: flex;
+  }
+}
+
+/* Estilos Contacto*/
+
+.contact {
+  background-color: #13171c;
+  color: white;
+}
+
+.contact_title {
+  text-align: center;
+  font-size: 42px;
+  padding-top: 3rem;
+  color: white;
+}
+
+.form {
+  padding: 3rem 4rem 4rem 4rem;
+}
+
+.form__fieldset {
+  padding-top: 20px;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  font-size: 1rem;
+}
+
+.form input,
+.form textarea {
+  color: black;
+  width: 80%;
+  height: 3rem;
+  padding-inline: 2rem;
+  border-radius: 1rem;
+}
+
+.form label {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.form textarea {
+  height: 3rem;
+  padding-block: 2rem;
+}
+
+.form__submit {
+  width: 100%;
+  height: 55px;
+  margin-top: 20px;
+  background-color: rgba(0, 173, 181, 1);
+  color: black;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.form .good,
+.form .error {
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-block: 2rem;
+}
+.form .good {
+  background: green;
+}
+
+.form .error {
+  background-color: brown;
+}
+
+@media (min-width: 720px) {
+  .contact{
+    display: flex;
+  }
+
+  .form{
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+
+}

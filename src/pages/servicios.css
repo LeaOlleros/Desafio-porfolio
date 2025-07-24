@@ -1,0 +1,80 @@
+* {
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+.portfolio {
+  width: auto;
+  height: 780px;
+  background-color: rgb(1, 12, 18);
+}
+
+
+.portfolio__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.portfolio__content-title {
+  text-align: center;
+  margin: 0 10rem 0 10rem;
+  color: white;
+  font-size: 60px;
+  padding-bottom: 3rem;
+}
+
+.portfolio__highlight {
+  color: #00adb5;
+}
+
+.portfolio__content-img {
+  width: 219px;
+  height: 211px;
+}
+
+@media (min-width: 1440px) {
+  .portfolio__content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15rem;
+  }
+
+  .portfolio__content-title {
+    font-size: 90px;
+    text-align: left;
+  }
+
+  .portfolio__content-img {
+    width: 373px;
+    height: 340px;
+    padding-right: 15rem;
+  }
+}
+
+/* Estilos de Services*/
+
+.cards-container {
+  background-image: url(../../img/bg.png);
+  background-color: #13171c;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.cards-container-title {
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+.cards-container-title-blue {
+  color: #00adb5;
+}
+
+@media (min-width: 1000px) {
+  .cards {
+    display: flex;
+  }
+}

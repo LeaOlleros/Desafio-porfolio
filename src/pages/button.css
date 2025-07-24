@@ -1,0 +1,64 @@
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #00adb5;
+    width: 312px;
+    height: 55px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .boton-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 14px;
+  }
+  
+  .boton-imagen {
+    width: 24px;
+    height: 24px;
+    transform: rotate(30deg);
+  }
+  
+  @media (min-width: 376px) and (max-width: 1440px) {
+    .boton {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 231px;
+      height: 60px;
+    }
+  
+    .boton-contenido {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  @media (min-width: 1440px) {
+    .boton {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 231px;
+      height: 60px;
+    }
+  
+    .boton-contenido {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }

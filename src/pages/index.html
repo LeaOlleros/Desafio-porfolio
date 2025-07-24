@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script defer src="./nav.css"></script>
+    <script defer src="./card.css"></script>
+    <script defer src="./footer.js"></script>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet " href="./mainH1.css"/>
+    <title>Inicio</title>
+  </head>
+  <body>
+    <header class="navbar"></header>
+    <section class="main">
+      <div class="main__content"> 
+        <main style="color: rgb(243, 240, 240);" font aria-setsize="100px"> Hola soy Lea 
+  
+</main>
+        <h1 class="Hola soy"></h1>
+        <img src ="/img/cohete.png.png" alt="Hola " />
+      </div>
+    </section>
+    <section class="presentation">
+      <div class="presentation__content">
+        <div class="presentation__content-container"> Bienvenido a mi sitio web!
+
+Soy Leandro, un desarrollador de software apasionado por crear soluciones tecnológicas innovadoras y eficientes. Con experiencia en [mencionar lenguajes o tecnologías específicas que dominas, como JavaScript, Python, PHP, etc.], me dedico a transformar ideas en realidad digital.
+Mi misión es ayudarte a potenciar tu negocio o proyecto con aplicaciones personalizadas, sitios web atractivos y sistemas funcionales que marquen la diferencia. Trabajo con dedicación, atención al detalle y un enfoque centrado en las necesidades de mis clientes para ofrecer resultados de calidad.
+¿Tienes un proyecto en mente? ¡Contáctame y hagamos que suceda!
+
+         <h1 class="presentation__content-title"> </h1>
+         <p class="presentation__content-text"></p>
+        </div>
+        <img src = "/img/lea css.png.jpg" alt = "foto lea" width="170px" 
+      </div>
+    </section>
+    <section class="cards-container">
+      <h1 class="cards-container-title">Mis <span class="cards-container-title-blue">servicios</span></h1>
+      <div class="cards"></div>
+    </section>
+    <template id="card-template">
+      <div class="card">
+        <img src="" alt="" class="./card-img" />
+        <div class="card-content">
+          <h4 class="card-title"></h4>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </template>
+    <section class="contact">
+      <h1 class="contact_title">Escribime</h1>
+      <form class="form">
+
+        <div class="form__fieldset">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form__fieldset">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form__fieldset">
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje " required></textarea>
+        </div>
+        <button type="submit" class="form__submit">Enviar <img src="/img/icon submit png.png" alt="Sumbit icon" width="50px" ></button>
+        <p class="send-message"></p>
+      </form>
+    </section>
+    <section class="footer"></section>
+  </body>
+</html>

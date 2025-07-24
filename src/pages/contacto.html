@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./contacto.css">
+    <script defer src = "./contacto.js"></script>
+    
+</head>
+<body>
+ <header class="navbar"></header>
+    <section class="contact">
+        <h1 class="contact_title">Escribime</h1>
+        <form action="/" class="form">
+          <div class="form__fieldset">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+          </div>
+          <div class="form__fieldset">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="form__fieldset">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje " required></textarea>
+          </div>
+          <button type="submit" class="form__submit">Enviar <img src="./img/submit-icon.png" alt="Sumbit icon"></button>
+          <p class="send-message"></p>
+        </form>
+      </section>
+    <section class="footer"></section>
+   
+    
+</body>
+</html>

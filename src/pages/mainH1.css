@@ -1,0 +1,9 @@
+.main__content {
+    background-color: rgb(1, 12, 18);
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 70px;
+    font-style: italic;
+    border-color: rgb(1, 12, 18);
+}
